@@ -19,17 +19,23 @@ export const Carta = ({IMC,setgender,gender}) => {
         if(gender=="Masculino"){
             if (resultIMC<18.5) {
                 setEstado("Bajo peso")
-                setimg('../public/img/M-flaco.png')
+                // setimg('../public/img/M-flaco.png')
+                setimg('./img/M-flaco.png')
+
             }else if(resultIMC>= 18.5 && resultIMC<24.9){
-                setimg('../public/img/M-fornido.png')
+                // setimg('../public/img/M-fornido.png')
+                setimg('./img/M-fornido.png')
+
                 
                 setEstado('Peso Normal')
             }else if(resultIMC>=24.9 && resultIMC <29.9){
-                setimg('../public/img/M-obeso.png')
+                // setimg('../public/img/M-obeso.png')
+                setimg('./img/M-obeso.png')
                 
                 setEstado('Sobrepeso')
             }else{
-                setimg('../public/img/M-obeso.png')
+                // setimg('../public/img/M-obeso.png')
+                setimg('./img/M-obeso.png')
                 
                 setEstado('Obesidad')
             }
@@ -37,18 +43,21 @@ export const Carta = ({IMC,setgender,gender}) => {
         }else if(gender=="Femenino"){
             if (resultIMC<18.5) {
                 setEstado("Bajo peso")
-                setimg('../public/img/F-flaca.png')
+                // setimg('../public/img/F-flaca.png')
+                setimg('./img/F-flaca.png')
 
             }else if(resultIMC>= 18.5 && resultIMC<24.99){
-                setimg('../public/img/F-fornido.png')
+                // setimg('../public/img/F-fornido.png')
+                setimg('./img/F-fornido.png')
 
                 setEstado('Peso Normal')
             }else if(resultIMC>=25 && resultIMC <29.99){
                 setEstado('Sobrepeso')
-                setimg('../public/img/F-obeso.png')
+                // setimg('../public/img/F-obeso.png')
+                setimg('./img/F-obeso.png')
 
             }else{
-                setimg('../public/img/F-obeso.png')
+                setimg('./img/F-obeso.png')
 
                 setEstado('Obesidad')
             }
