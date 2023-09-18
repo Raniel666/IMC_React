@@ -13,7 +13,7 @@ function App() {
       gender=="" ?(           
       <section className='container_button'>
         <ButtonGenero img="../public/img/btn_boy.png"  setgender={setgender} gender={gender} >Masculino</ButtonGenero>
-        <ButtonGenero img="../src/assets/img/btn_women.png" setgender={setgender} gender={gender} >Femenino</ButtonGenero>   
+        <ButtonGenero img="../public/img/btn_women.png" setgender={setgender} gender={gender} >Femenino</ButtonGenero>   
       </section>)
 
 :
