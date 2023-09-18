@@ -19,17 +19,17 @@ export const Carta = ({IMC,setgender,gender}) => {
         if(gender=="Masculino"){
             if (resultIMC<18.5) {
                 setEstado("Bajo peso")
-                setimg('../../../public/img/M-flaco.png')
+                setimg('../src/assets/img/M-flaco.png')
             }else if(resultIMC>= 18.5 && resultIMC<24.9){
-                setimg('../../../public/img/M-fornido.png')
+                setimg('../src/assets/img/M-fornido.png')
                 
                 setEstado('Peso Normal')
             }else if(resultIMC>=24.9 && resultIMC <29.9){
-                setimg('../../../public/img/M-obeso.png')
+                setimg('../src/assets/img/M-obeso.png')
                 
                 setEstado('Sobrepeso')
             }else{
-                setimg('../../../public/img/M-obeso.png')
+                setimg('../src/assets/img/M-obeso.png')
                 
                 setEstado('Obesidad')
             }
@@ -37,18 +37,18 @@ export const Carta = ({IMC,setgender,gender}) => {
         }else if(gender=="Femenino"){
             if (resultIMC<18.5) {
                 setEstado("Bajo peso")
-                setimg('../../../public/img/F-flaca.png')
+                setimg('../src/assets/img/F-flaca.png')
 
             }else if(resultIMC>= 18.5 && resultIMC<24.99){
-                setimg('../../../public/img/F-fornido.png')
+                setimg('../src/assets/img/F-fornido.png')
 
                 setEstado('Peso Normal')
             }else if(resultIMC>=25 && resultIMC <29.99){
                 setEstado('Sobrepeso')
-                setimg('../../../public/img/F-obeso.png')
+                setimg('../src/assets/img/F-obeso.png')
 
             }else{
-                setimg('../../../public/img/F-obeso.png')
+                setimg('../src/assets/img/F-obeso.png')
 
                 setEstado('Obesidad')
             }
