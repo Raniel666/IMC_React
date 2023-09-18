@@ -72,15 +72,14 @@ export const Carta = ({IMC,setgender,gender}) => {
   return (
     img?(    <div className="card">
     <div className="top-section">
-      <div className="border"></div>
+      
       <div className="icons">
         <div className="logo">
          <button onClick={reset}>Regresar</button>
         </div>
       
       </div>
-      
-    
+      <Spinner></Spinner>
       <img src={img} className='img-characther' alt="" />
     </div>
     <div className="bottom-section">
