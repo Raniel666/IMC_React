@@ -7,7 +7,7 @@ import { Form } from './assets/components/Form'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  
   const [gender, setgender] = useState('')
   return (
       gender=="" ?(           
