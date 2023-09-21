@@ -60,7 +60,7 @@ button:focus-visible {
   align-items: center;
 }
 .btn-charather{
-  width: 25%;
+  width: 38%;
   margin: auto 2em;
   background-color: rgba(240, 248, 255, 0.87);
   transition: all ease-in-out linear;
@@ -74,9 +74,28 @@ button:focus-visible {
 
 .btn-charather span{
   color:black;
-  font-size: 1.62em;
+  font-size: 1.92em;
 }
 
 .btn-charather img{
   width: 100%;
+}
+
+@media (max-width:500){
+  .container_button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #535bf2;
+  }
+
+.btn-charather{
+  width: 70%;
+  margin: auto 2em;
+  background-color: rgba(27, 133, 226, 0.87);
+  transition: all ease-in-out linear;
+}
+
 }

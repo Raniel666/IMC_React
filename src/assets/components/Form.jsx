@@ -52,6 +52,7 @@ const calcularIMC = (evento) => {
 !succesful?
 
 <section className="login-box">
+    <h2>Formulario IMC</h2>
   <form >
     <div className="user-box">
       <input type="number" name="weight" required="" onChange={actualizarIMC}/>

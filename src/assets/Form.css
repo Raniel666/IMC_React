@@ -9,7 +9,10 @@
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
     border-radius: 10px;
+    display:flex;
+    flex-direction: column;
   }
+
   
   .login-box .user-box {
     position: relative;
@@ -38,6 +41,9 @@
     transition: .5s;
   }
   
+  label{
+    font-size: 2em;
+  }
   .login-box .user-box input:focus ~ label,
   .login-box .user-box input:valid ~ label {
     top: -20px;
@@ -92,4 +98,8 @@
     height: 2px;
     background: linear-gradient(90deg, transparent, #03f40fd0);
     animation: btn-anim1 2s linear infinite;
+  }
+
+  label{
+    font-size: 3em;
   }
