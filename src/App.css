@@ -1,17 +1,10 @@
 
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
   margin: 0;
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -47,20 +40,22 @@ button:focus-visible {
   a:hover {
     color: #747bff;
   }
-  button {
-    background-color: #f9f9f9;
-  }
+
 }
 
 
 .container_button{
   width: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
+  background-color: #535bf2;
 }
 .btn-charather{
   width: 38%;
+  
   margin: auto 2em;
   background-color: rgba(240, 248, 255, 0.87);
   transition: all ease-in-out linear;
@@ -78,10 +73,10 @@ button:focus-visible {
 }
 
 .btn-charather img{
-  width: 100%;
+  width: 90%;
 }
 
-@media (max-width:500){
+@media (min-width:500){
   .container_button{
     width: 100%;
     display: flex;
