@@ -32,16 +32,6 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-
-}
 
 
 .container_button{
@@ -51,7 +41,7 @@ button:focus-visible {
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  background-color: #535bf2;
+ 
 }
 .btn-charather{
   width: 38%;
@@ -93,4 +83,7 @@ button:focus-visible {
   transition: all ease-in-out linear;
 }
 
+}
+.label_btn{
+  font-size: 2em;
 }

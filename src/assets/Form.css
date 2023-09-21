@@ -2,7 +2,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 400px;
+    width: 380px;
     padding: 40px;
     transform: translate(-50%, -50%);
     background: rgba(24, 20, 20, 0.987);
@@ -102,4 +102,18 @@
 
   label{
     font-size: 3em;
+  }
+  button{
+    color: #fff;
+  }
+
+  .Error{
+    background-color: rebeccapurple;
+    padding:10px;
+    margin: auto;
+    margin-bottom: 6%;
+    width: 100%;
+    font-weight: 600;
+    font-size: 0.8em;
+    text-align: center;
   }
